@@ -7,3 +7,4 @@ workflows:
     scripts:
       - flutter packages get
       - flutter build apk --release
+      
