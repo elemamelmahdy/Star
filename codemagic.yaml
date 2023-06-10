@@ -1,5 +1,9 @@
 workflows:
   build:
+    environment:
+      vars:
+        FOO: bar
+        BAR: baz
     scripts:
       - flutter packages get
       - flutter build apk --release
